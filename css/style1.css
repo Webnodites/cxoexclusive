@@ -2219,9 +2219,7 @@ font-size: 11px!important;
 .production_gallery {
   margin-top: 34px!important;
 }
-.single-product{
-  padding: 0px!important;
-}
+
 .section-full{
   margin-top: 40px!important;
   margin-bottom: 40px!important;
@@ -2242,10 +2240,7 @@ margin: 0px!important;
    
 }
 
-.single-product .desc{
-padding-right: 30px!important;
-  padding-left: 30px!important;
-}
+
 .single-product .desc h4 {
 padding-top: 17px!important;
 }
@@ -2651,15 +2646,15 @@ padding-bottom: 15px!important
 }
 
 .single-product {
-  background: #fff;
+  background: #8d8b8b;
 /*  border-bottom: 2px solid #00ff8c;
-*/  padding: 20px 20px;
+*/  padding: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  height: 280px;
-  max-height: 300px;
+  
+  min-height: 300px;
 }
 
 .single-product .icon {
@@ -2682,6 +2677,7 @@ padding-bottom: 15px!important
 
 .single-product .desc h4 {
   margin-bottom: 10px;
+  color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2699,13 +2695,6 @@ padding-bottom: 15px!important
 
 }
 
-.single-product:hover {
-  background: #8d8b8b;
-}
-
-.single-product:hover .icon span, .single-product:hover .desc h4, .single-product:hover .desc p {
-  color: #fff;
-}
 
 
 

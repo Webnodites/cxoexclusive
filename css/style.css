@@ -507,6 +507,7 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+
  /* margin-right: -15px;
   margin-left: -15px;*/ }
 
@@ -10027,6 +10028,13 @@ textarea.form-control {
   text-align: justify;
   /*height: 430px;*/
 }
+.creative {
+  background:#0f1231;
+  padding:30px;
+  text-align: justify;
+  border-radius: 50px 0;
+  /*height: 430px;*/
+}
 
 .creative_product {
   margin-top: 100px;
@@ -10064,7 +10072,9 @@ textarea.form-control {
   .text-primary {
 font-size: 25px!important;
 }}
-
+.services-2{
+  padding: 20px 0;
+}
 
 /*headhunting page*/
 .table-bordered td{

@@ -2161,6 +2161,9 @@ margin-top: 260px;
 }*/
 
 }
+.single-product{
+  margin: 20px 0;
+}
 
 @media (max-width: 767px){
 /*.circleee1{
@@ -2218,7 +2221,6 @@ font-size: 11px!important;
 }
 .single-product{
   padding: 0px!important;
-  height: 200px!important;
 }
 .section-full{
   margin-top: 40px!important;
@@ -2240,7 +2242,7 @@ margin: 0px!important;
    
 }
 
-.single-product .desc p{
+.single-product .desc{
 padding-right: 30px!important;
   padding-left: 30px!important;
 }
@@ -3101,11 +3103,8 @@ border-radius: 5px;
         margin-right:20px;
         padding: 20px 50px 20px 50px;
         text-align: justify;
-        height: 300px;
-        padding: 35px;
-        padding: 36px;
-        margin-top: 12px;
-        margin-bottom: 99px;
+        padding: 25px;
+        margin: 50px 0;
     }
 .witebox1{
         background-color:rgba(23,60,128,0.9);

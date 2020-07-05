@@ -708,7 +708,23 @@ margin-left:20px;
 
 
 }
+.team-section_1{
+       width:100%;
+       display:flex;
+       justify-content: space-between;
+       flex-wrap:wrap;
+       /*background-image:url (65479.jpg);
+*/    padding-bottom:100px;
+       display: flex;
+    justify-content: center;
+    align-content: center;
+   /* background-image: url(../images/jjjj.jpeg);*/
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top:20px;
 
+
+}
 
 .fa-users{
     margin-right: 13px;
@@ -3525,4 +3541,7 @@ border-radius: 5px;
     text-align: center;
     line-height: 24px;
     z-index: 1;
+}
+#team_1{
+  border: 1px solid red;
 }

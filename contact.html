@@ -122,7 +122,7 @@
  -->	          <li class="nav-item"><a href="our-team.html" class="nav-link">Leadership</a></li>
 <!-- 	          <li class="nav-item"><a href="#" class="nav-link">Pricing Plans</a></li>
  -->	          <li class="nav-item"><a href="headhunting.html" class="nav-link">Headhunting</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Register Now</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
 
 	        </ul>
 	      </div>
@@ -149,7 +149,7 @@
                 <form method="post" name="form2" id="form2" action="contact.php" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-lg-6 contact_form_color text-center">
-                            <h2>Register Now</h2>
+                            <h2>Contact Us</h2>
                             <div class="row">
                                 <div class="col-lg-6 padding0">
                                     <input type="text" class="form-control contact_margin mar" name="firstname" id="firstname" placeholder="First Name" onkeypress="return hid('message1');">
@@ -472,22 +472,22 @@
                             </div>
                             <span id="message10" style="color:white; font-size:12px"></span>
                             <div class="text contact_submit mb-5 ">
-                                <h5 class="contact_font">Submit your CV/Resume:</h5>
-                                <h6 class="contact_font">(Attach only doc, docx, pdf, rtf, or txt with a size less than 3MB)</h6>
+                                <h5 class="contact_font">Upload Your Picture:</h5>
+                                <h6 class="contact_font">(Attach only JPEG, JPG, PNG with a size less than 3MB)</h6>
                                 <div class="form-group">
                                     <!-- <label for="exampleFormControlFile1" class="contact_font">Example file input</label> -->
                                     <input type="file" class="form-control-file contact_font" name="txtFile" id="txtFile" onkeypress="return hid('message11');">
                                     <span id="message11" style="color:white; font-size:12px"></span>
                                 </div>
                             </div>
-                            <div class="text contact_submit mb-5 ">
+                            <!--div class="text contact_submit mb-5 ">
                                 <h5 class="contact_font">Submit your Intro Video:</h5>
                                 <h6 class="contact_font">(Attach only mp4 or size less than 30MB)</h6>
                                 <div class="form-group">
                                     <input type="file" class="form-control-file contact_font" name="txtintro" id="txtintro" onkeypress="return hid('message12');">
                                     <span id="message12" style="color:white; font-size:12px"></span>
                                 </div>
-                            </div>
+                            </div-->
                             <div class="form-group text-center contact_font">
                                 <input type="submit" value="Submit" name="submit" class="submit" onclick="return myfun2();">
                             </div>
@@ -672,7 +672,7 @@
             }
             else if(txtFile=="")
             {
-               document.getElementById('message11').innerHTML= "** Please upload your Resume";
+               document.getElementById('message11').innerHTML= "** Please upload your Picture";
                return false;
             }
             else if(txtintro=="")

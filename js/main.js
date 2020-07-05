@@ -1,3 +1,23 @@
+ $('.qlwapp-toggle').click(function(){
+               var box = document.getElementById('qlwapp-box1');
+               
+                if(box.style.display == 'none'){
+                    box.style.display = 'block';
+
+                }
+                else
+                {
+                    box.style.display = 'none';
+                }
+            });
+
+          $('.qlwapp-close').click(function(){
+            
+               var box = document.getElementById('qlwapp-box1');
+               
+                    box.style.display = 'none';
+               
+            });
  AOS.init({
  	duration: 800,
  	easing: 'slide'

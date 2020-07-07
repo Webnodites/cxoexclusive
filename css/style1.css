@@ -97,18 +97,7 @@
  }
 
 
-
-
-
-
-
   /* end banner area */
-
-
-
-
-  
-
 
 
 /* About section */
@@ -116,7 +105,7 @@
  
 .about_img{
     height: 100%;
-    background-image: url(../images/why.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(../images/why.jpeg);
     background-size: cover;
         display: flex;
     justify-content: center;

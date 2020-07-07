@@ -476,8 +476,7 @@ font-size: 19px;}
     bottom: -250px;
     width: 100%; }
   .site-blocks-cover, .site-blocks-cover > .container > .row {
-    min-height: 600px;
-    height: calc(100vh); }
+    min-height: 600px; }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
     height: calc(20vh); }

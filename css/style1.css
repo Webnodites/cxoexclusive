@@ -63,7 +63,7 @@
 
 
 .navbar-brand_ab img{
-  width:120px;
+  width:145px;
     
 }
 
@@ -2617,7 +2617,7 @@ padding-bottom: 15px!important
 }
 
 .single-product {
-  background: #8d8b8b;
+  background: #d2d0d0;
 /*  border-bottom: 2px solid #00ff8c;
 */  padding: 30px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2648,7 +2648,7 @@ padding-bottom: 15px!important
 
 .single-product .desc h4 {
   margin-bottom: 10px;
-  color: #fff;
+  color: #0F1231;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2739,7 +2739,8 @@ padding-bottom: 15px!important
 .ftco-departments {
   position: relative;
   width: 100%;
-  display: block; }
+  display: block; 
+color: #000000;}
   .ftco-departments .nav-pills {
     width: 100%;
     display: block; }

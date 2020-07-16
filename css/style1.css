@@ -63,7 +63,7 @@
 
 
 .navbar-brand_ab img{
-  width:120px;
+  width:140px;
     
 }
 
@@ -197,27 +197,28 @@ background-color: rgba(24, 63, 136, 0.1);
 .process-text h2{
     color:#000;
     text-align: center;
-    padding-bottom:55px;
+    padding-bottom:10px;
     font-size:35px;
-    padding-top:82px;
+    padding-top:0px;
 }
 
 
 
 
 .process-section{
-       width:100%;
-       display:flex;
-       justify-content: space-between;
-       flex-wrap:wrap;
-       /*background-image:url (65479.jpg);
-*/    padding-bottom:22%;
-       display: flex;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    /*background-image:url (65479.jpg);*/    
+    padding-bottom:22%;
+    display: flex;
     justify-content: center;
     align-content: center;
-background-image: url(../images/jjjj.jpeg);
-background-attachment: fixed;
-background-size: cover;
+    background-color: #000;
+    background-image: url(../images/jjjj.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 

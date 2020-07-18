@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Cxo Exclusive</title>
+    <title>Contact</title>
    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -157,19 +157,18 @@
       </div>
       <section class="contact_form" style="padding: 40px 0;">
          <div class="container">
-                <form method="post" name="form2" id="form2" action="contactmail" enctype="multipart/form-data">
+                <form method="post" name="form2" action="contactmail"  enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-lg-6 contact_form_color text-center">
                             <h2>Volunteer</h2>
                             <div class="row">
                                 <div class="col-lg-6 padding0">
-                                    <input type="text" class="form-control contact_margin mar" name="firstname" id="firstname" placeholder="First Name" onkeypress="return hid('message1');">
-                                    <span id="message1" style="color:white; font-size:12px"></span>
+                                    <input type="text" class="form-control only-alpha contact_margin mar" name="firstname" placeholder="First Name" required>
                                 </div>
                                 
                                 <div class="col-lg-6 padding0"> 
-                                    <input type="text" class="form-control contact_margin " name="lastname" id="lastname" placeholder="Last Name" onkeypress="return hid('message4');">
-                                    <span id="message4" style="color:white; font-size:12px"></span>
+                                    <input type="text" class="form-control only-alpha contact_margin " name="lastname" placeholder="Last Name" required>
+                                    
                                 </div>
                             </div>    
                             
@@ -429,7 +428,7 @@
                                     <span id="message3" style="color:white; font-size:12px"></span>
                                 </div>
                                 <div class="col-lg-6 padding0">
-                                    <input type="text" class="form-control contact_margin mar" name="txtMobile" id="txtMobile" placeholder="Phone Number" onkeypress="return hid('message2');">
+                                    <input type="text" class="form-control only-numeric contact_margin mar" name="txtMobile" id="txtMobile" minlength="10" placeholder="Phone Number" onkeypress="return hid('message2');" required>
                                     <span id="message2" style="color:white; font-size:12px"></span>
                                 </div>
                             </div>    
@@ -437,7 +436,7 @@
 
                             <div class="row">        
                                 <div class="col-lg-6 padding0">   
-                                    <input type="text" class="form-control contact_margin" name="txtEmail" id="txtEmail" placeholder="Email" onkeypress="return hid('message5');">
+                                    <input type="email" class="form-control contact_margin" name="txtEmail" id="txtEmail" placeholder="Email" onkeypress="return hid('message5');" required>
                                     <span id="message5" style="color:white; font-size:12px"></span>
                                 </div>
                                 
@@ -474,13 +473,13 @@
                             <h2>Building A New Future</h2>
                             <h5 class="contact_font mt-2">I am a</h5>
                             <div class="form-check contact_submit">
-                                <input class="form-check-input" type="radio" name="radiobtn" id="radiobtn" onkeypress="return hid('message10');" value="1" checked>
+                                <input class="form-check-input" type="radio" name="radiobtn" id="radiobtn" onkeypress="return hid('message10');" value="candidate" checked>
                                 <label class="form-check-label contact_font" for="exampleRadios1">
                                     Candidate
                                 </label>
                             </div>
                             <div class="form-check contact_submit">
-                                <input class="form-check-input" type="radio" name="radiobtn" id="radiobtn" onkeypress="return hid('message10');" value="2">
+                                <input class="form-check-input" type="radio" name="radiobtn" id="radiobtn" onkeypress="return hid('message10');" value="company">
                                 <label class="form-check-label contact_font" for="exampleRadios2">
                                     Company
                                 </label>
@@ -495,16 +494,9 @@
                                     <span id="message11" style="color:white; font-size:12px"></span>
                                 </div>
                             </div>
-                            <!--div class="text contact_submit mb-5 ">
-                                <h5 class="contact_font">Submit your Intro Video:</h5>
-                                <h6 class="contact_font">(Attach only mp4 or size less than 30MB)</h6>
-                                <div class="form-group">
-                                    <input type="file" class="form-control-file contact_font" name="txtintro" id="txtintro" onkeypress="return hid('message12');">
-                                    <span id="message12" style="color:white; font-size:12px"></span>
-                                </div>
-                            </div-->
+                            
                             <div class="form-group text-center contact_font">
-                                <input type="submit" value="Submit" name="submit" class="submit" onclick="return myfun2();">
+                                <input type="submit" value="Submit" name="submit" class="submit" onclick="">
                             </div>
                         </div>
                     </div>
@@ -581,7 +573,6 @@
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
@@ -590,109 +581,143 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
               <script type="text/javascript">
+            $('.only-alpha').keypress(function (e) {
+                var regex = new RegExp("^[a-zA-Z ]*$");
+                var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+                if (regex.test(str)) {
+                    return true;
+                }
+                else {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+              var numberval = false;
+            $(".only-numeric").bind("keypress", function (e) {
+                    var keyCode = e.which ? e.which : e.keyCode
+                 
+                    if (!(keyCode >= 48 && keyCode <= 57)) {
+                        return false;
+                    } else {
+                    }
+
+                    if ($(this).val().length < 9) {
+                        
+                        numberval = false;
+                    }
+                    else {
+                        numberval = true;
+                       
+                    }
+
+                });
+        
          //alert("fsf");
-         function myfun2()
+         // function myfun2()
          
-           {
-            var firstname= document.getElementById('firstname').value;
-            var lastname= document.getElementById('lastname').value;
-            var country= document.getElementById('country').value;
-            var txtMobile= document.getElementById('txtMobile').value;             
-            var txtEmail= document.getElementById('txtEmail').value;
-            var profile= document.getElementById('profile').value;
-            var company= document.getElementById('company').value;
-             var industry= document.getElementById('industry').value;
-             var interest= document.getElementById('interest').value;
-             var message= document.getElementById('message').value;
-             var radiobtn= document.getElementById('radiobtn').value;
-             var txtFile= document.getElementById('txtFile').value;
-             var txtintro= document.getElementById('txtintro').value;
+         //   {
+         //    alert('hyy');
+         //    var firstname= document.forms['form2']['firstname'];
+         //    console.log(firstname);
+         //    var lastname= document.getElementById('lastname').value;
+         //    var country= document.getElementById('country').value;
+         //    var txtMobile= document.getElementById('txtMobile').value;             
+         //    var txtEmail= document.getElementById('txtEmail').value;
+         //    var profile= document.getElementById('profile').value;
+         //    var company= document.getElementById('company').value;
+         //     var industry= document.getElementById('industry').value;
+         //     var interest= document.getElementById('interest').value;
+         //     var message= document.getElementById('message').value;
+         //     var radiobtn= document.getElementById('radiobtn').value;
+         //     var txtFile= document.getElementById('txtFile').value;
+         //     var txtintro= document.getElementById('txtintro').value;
              
-             if(firstname=="")
-             {
-               document.getElementById("message1").innerHTML= "** First name not be Empty";
-               return false;
-             }
-             else if(!isValidName(firstname))
-             {
-              document.getElementById("message1").innerHTML= "** Only alphabets are allowed";
-              return false;
-             }
-             else if(firstname.length>15)
-             {
-               document.getElementById("message1").innerHTML= "** First Name must be less than 15 character";
-               return false;
-             }
+         //     if(firstname=="")
+         //     {
+         //       document.getElementById("message1").innerHTML= "** First name not be Empty";
+         //       return false;
+         //     }
+         //     else if(!isValidName(firstname))
+         //     {
+         //      document.getElementById("message1").innerHTML= "** Only alphabets are allowed";
+         //      return false;
+         //     }
+         //     else if(firstname.length>15)
+         //     {
+         //       document.getElementById("message1").innerHTML= "** First Name must be less than 15 character";
+         //       return false;
+         //     }
           
-             else if(lastname=="")
-             {
-               document.getElementById("message4").innerHTML= "**Last Name can not be Empty";
-               return false;
-             }
-             else if(!isValidName(lastname))
-             {
-              document.getElementById("message4").innerHTML= "** Only alphabets are allowed";
-              return false;
-             }
-             else if(lastname.length>15)
-             {
-               document.getElementById("message4").innerHTML= "**Last Name must be less than 15 character";
-               return false;
-             }
+         //     else if(lastname=="")
+         //     {
+         //       document.getElementById("message4").innerHTML= "**Last Name can not be Empty";
+         //       return false;
+         //     }
+         //     else if(!isValidName(lastname))
+         //     {
+         //      document.getElementById("message4").innerHTML= "** Only alphabets are allowed";
+         //      return false;
+         //     }
+         //     else if(lastname.length>15)
+         //     {
+         //       document.getElementById("message4").innerHTML= "**Last Name must be less than 15 character";
+         //       return false;
+         //     }
          
-            else if(txtMobile=="")
-            {
-               document.getElementById('message2').innerHTML= "** Phone not be Empty";
-               return false;
-            }
-            else if(!isValidPhone(txtMobile))
-            {
-            document.getElementById("message2").innerHTML="** Invalid Phone";
-             return false;
-            }
-            else if(!isValidmobno(txtMobile)) 
-               { 
-            document.getElementById('message2').innerHTML= "** Mobile no must be 10 digits";
-            return false;   
-               }  
+         //    else if(txtMobile=="")
+         //    {
+         //       document.getElementById('message2').innerHTML= "** Phone not be Empty";
+         //       return false;
+         //    }
+         //    else if(!isValidPhone(txtMobile))
+         //    {
+         //    document.getElementById("message2").innerHTML="** Invalid Phone";
+         //     return false;
+         //    }
+         //    else if(!isValidmobno(txtMobile)) 
+         //       { 
+         //    document.getElementById('message2').innerHTML= "** Mobile no must be 10 digits";
+         //    return false;   
+         //       }  
          
-             else if(txtEmail=="")
-             {
-               document.getElementById("message5").innerHTML= "** Email not be Empty";
-               return false;
-             }
-             else if(!isValidEmailAddress(txtEmail))
-             {
-               document.getElementById("message5").innerHTML="** Invalid email";
-              return false;
-             }
-            else if(profile=="")
-            {
-               document.getElementById('message6').innerHTML= "** Profile not be Empty";
-               return false;
-            }
-            else if(txtFile=="")
-            {
-               document.getElementById('message11').innerHTML= "** Please upload your Picture";
-               return false;
-            }
-            else if(txtintro=="")
-            {
-               document.getElementById('message12').innerHTML= "** Please upload your Intro";
-               return false;
-            }
+         //     else if(txtEmail=="")
+         //     {
+         //       document.getElementById("message5").innerHTML= "** Email not be Empty";
+         //       return false;
+         //     }
+         //     else if(!isValidEmailAddress(txtEmail))
+         //     {
+         //       document.getElementById("message5").innerHTML="** Invalid email";
+         //      return false;
+         //     }
+         //    else if(profile=="")
+         //    {
+         //       document.getElementById('message6').innerHTML= "** Profile not be Empty";
+         //       return false;
+         //    }
+         //    else if(txtFile=="")
+         //    {
+         //       document.getElementById('message11').innerHTML= "** Please upload your Picture";
+         //       return false;
+         //    }
+         //    else if(txtintro=="")
+         //    {
+         //       document.getElementById('message12').innerHTML= "** Please upload your Intro";
+         //       return false;
+         //    }
          
-             // else if(city=="")
-             // {
-             //   document.getElementById('message4').innerHTML= "** City not be Empty";
-             //   return false;
-             // }     
+         //     // else if(city=="")
+         //     // {
+         //     //   document.getElementById('message4').innerHTML= "** City not be Empty";
+         //     //   return false;
+         //     // }     
          
-             else
-             {
-               document.getElementById("form2").submit();
-             }       
-           }
+         //     else
+         //     {
+         //       document.getElementById("form2").submit();
+         //     }       
+         //   }
          
          
       </script>

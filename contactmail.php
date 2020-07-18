@@ -13,6 +13,19 @@ if(isset($_POST["submit"]))
 	$industry=$_POST["industry"];
 	$interest=$_POST["interest"];
 	$msg=$_POST["message"];
+	$type=$_POST["radiobtn"];
+
+	// echo($fname);
+	// echo($lname);
+	// echo($country);
+	// echo($email);
+	// echo($phone);
+	// echo($profile);
+	// echo($company);
+	// echo($industry);
+	// echo($interest);
+	// echo($msg);
+	// echo($type);
 	
 	$from = "Volunteer Contact";
 	$to="@gmail.com";
@@ -21,8 +34,8 @@ if(isset($_POST["submit"]))
 
 	$header = "From:".$from."<".$webmaster.">\n";
 	$message = "FirstName :".$fname."\n";
-	$message = "LastName :".$lname."\n";
-	$message = "Country :".$country."\n";
+	$message .= "LastName :".$lname."\n";
+	$message .= "Country :".$country."\n";
 	$message .= "Email :".$email."\n";
 	$message .= "Mobile No. :".$phone."\n";
 	$message .= "Profile :".$profile."\n";
@@ -30,6 +43,9 @@ if(isset($_POST["submit"]))
 	$message .= "Industry :".$industry."\n";
 	$message .= "Area Of Interest :".$interest."\n";
 	$message .= "Message :".$msg."\n";
+	$message .= "Type :".$type."\n";
+   
+    
 
 	$sendmail = mail($to,$sub,$message,$header);
 	if($sendmail){

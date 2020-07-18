@@ -749,7 +749,7 @@ padding: 25px 0;
     align-items: center;
     justify-content: center;
     padding: 20px 10px;
-    height:312px;
+    height:350px;
     box-shadow: 2px 2px 2px rgba(0,0,0,.8);
     text-align: center;
      -moz-transition: all 0.6s ease;
@@ -2222,6 +2222,7 @@ padding-top: 17px!important;
 }
 .top-category h3{
   font-size: 10px!important;
+  padding-top: 15px;: 
 }
 .pricing-button {
     margin-top: 12px;
@@ -2883,7 +2884,7 @@ color: #000000;}
 }
 */
 .footerr{background-color:#012148!important;}
-.footerr .foot_marg{padding-top:40px !important;padding-bottom: 20px}
+.footerr .foot_marg{padding-top:40px !important;padding-bottom: 20px;text-align: left; }
 .footerr_style ul{list-style-type: none;}
 .footerr_style ul li a{list-style-type:none;color:#fff;font-size: 15px;text-decoration: none;}
 .footerr_style ul li h6{font-size:16px; color:#fff;padding-bottom: 10px}
@@ -2914,12 +2915,12 @@ color: #000000;}
 {padding:5px 50px;
   /*margin:40px 0!important;*/
   border-radius:50px!important;
-  background-color:#fff!important;
+  background-color:#fff;
   color: #0f1231!important;
   border:1px solid #0f1231!important;}
 
 /*.contact_form .mar{margin-right:5px}*/
-.contact_form .submit:hover{background-color: #fff!important;color:#0f1231!important;border:1px solid #0f1231!important;}
+.contact_form .submit:hover{background-color: #0f1231!important;color:#fff!important;border:1px solid #fff!important;}
 .contact_country{height:35px!important;width:100%!important;border-radius:3px!important;font-family: sans-serif!important;font-weight: 300!important;font-size: 12px!important;border:none!important;}
 .form-control {height:35px!important;}
 .contact_form_color{background-color: #0f1231!important;padding:30px 30px!important;}

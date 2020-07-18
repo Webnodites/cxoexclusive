@@ -8628,7 +8628,7 @@ h1, h2, h3, h4, h5,
       box-shadow: 0px 3px 14px -4px rgba(0, 0, 0, 0.1); } }
 
 .top-category {
-  height:160px!important;
+  height:175px!important;
   width: 180px!important;
   padding-top: 15px;
   /*background: #fff;*/
@@ -8655,6 +8655,7 @@ h1, h2, h3, h4, h5,
     border-left: none; }
   .top-category h3 {
     font-size: 15px!important;
+    padding-top: 15px;
     color:#fff!important; }
     .top-category h3 a {
       /*color: #000000;*/ 

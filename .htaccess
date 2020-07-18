@@ -1,0 +1,17 @@
+#mod_rewrite starts here
+
+RewriteEngine on 
+
+#does not apply to directoies
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#check for file in directory
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]

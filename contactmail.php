@@ -33,27 +33,13 @@ if(isset($_POST["submit"]))
 
 	$sendmail = mail($to,$sub,$message,$header);
 	if($sendmail){
-		echo "<script>alert({
-				  title: 'Thank You!',
-				  text: 'Message Sent Successfully!',
-				  icon: 'success',
-				  button: 'Ok!',
-				}).then(function(){
-			         window.location.href='index';
-			         });
+		echo "<script>alert('Message Sent Successfully!');
 			   </script>";
 	}
 	else{
 	
 		echo "<script>
-			alert({
-				  title: 'Oops!',
-				  text: 'Something Went Wrong!',
-				  icon: 'error',
-				  button: 'Ok!',
-				}).then(function(){
-			         window.location.href='index.html';
-			         });  
+			alert('Something Went Wrong!');  
 			</script>";
 
 		}

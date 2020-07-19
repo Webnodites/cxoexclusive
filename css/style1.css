@@ -214,7 +214,7 @@ background-color: rgba(24, 63, 136, 0.1);
     justify-content: center;
     align-content: center;
     background-color: #000;
-    background-image: url(../images/jjjj.jpeg);
+    /*background-image: url(../images/jjjj.jpeg);*/
     background-attachment: fixed;
     background-size: cover;
 }
@@ -695,7 +695,7 @@ margin-left:20px;
        display: flex;
     justify-content: center;
     align-content: center;
-    background-image: url(../images/jjjj.jpeg);
+   /* background-image: url(../images/.jpeg);*/
     background-attachment: fixed;
     background-size: cover;
 

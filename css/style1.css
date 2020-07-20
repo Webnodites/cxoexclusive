@@ -2608,6 +2608,9 @@ background-image: url(../images/team-img1.jpg);}
   padding-bottom: 40px;
   font-size: 30px!important;
 }
+.redimg{
+  width:80%;
+}
 .product-area-title p{
 font-size: 13px!important;
 text-align: justify;
@@ -2617,6 +2620,10 @@ padding-bottom: 15px!important
   .product-area-title h2 br {
     display: none;
   }
+  .redimg{
+  width:100%;
+}
+
 }
 
 .single-product {

@@ -2602,12 +2602,10 @@ background-image: url(../images/team-img1.jpg);}
 
 .section-full {
   padding: 36px 0;
-  margin-top:100px;
-  margin-bottom:100px;
 }
 
 .product-area-title h2{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   font-size: 30px!important;
 }
 .product-area-title p{

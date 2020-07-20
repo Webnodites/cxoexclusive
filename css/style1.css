@@ -142,14 +142,13 @@ background-color: rgba(24, 63, 136, 0.1);
   height: 162px!important;
 }
 #bc1{
-  margin-top: 44px!important;
   margin-bottom: 53px!important;
 }
 
  .about-text p{
    
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
     text-align: justify;
     padding: 40px;
 }
@@ -2173,8 +2172,8 @@ margin-top: -126px!important;
 }
 .witebox{
   padding: 15px!important;
-  margin-top: 61px!important;
-  margin-bottom: 59px!important;
+  margin-top: 25px!important;
+  margin-bottom: 25px!important;
 }
 .witebox1{
   padding: 15px!important;
@@ -2187,7 +2186,7 @@ margin-top: -126px!important;
   font-size: 0.9rem!important;
 }
 .site-blocks-cover p {
-font-size: 11px!important;
+font-size: 12px!important;
 }
 .table-bordered ul{
   margin-top: -5px!important;
@@ -2208,7 +2207,7 @@ margin: 0px!important;
 .experential_exp_img{margin-top: 20px!important;}
 .experential_exp_text{
   padding-right: 0px!important;
-  padding-top: 44px!important;s
+  padding-top: 44px!important;
 }
 .top-category {
     height: 140px!important;
@@ -2224,8 +2223,9 @@ padding-top: 17px!important;
   margin: 0px!important;
 }
 .top-category h3{
-  font-size: 10px!important;
-  padding-top: 15px;: 
+  font-size: 8px!important;
+  padding-top: 15px;
+  
 }
 .pricing-button {
     margin-top: 12px;
@@ -2266,7 +2266,7 @@ padding-top: 17px!important;
 
 .about-text p {
     color: #fff;
-font-size: 10px;
+font-size: 15px;
 text-align: justify;
 padding: 20px;
 }
@@ -2953,7 +2953,7 @@ color: #000000;}
 height: 200px;
 width: auto;
 padding-top: 15px;
-border-radius:5px 5px;
+
 
 }
 .team-section .team-box2 img{

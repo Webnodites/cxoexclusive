@@ -330,7 +330,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
   font-weight: 500;
   line-height: 1.2;
    }
@@ -354,7 +354,7 @@ h6, .h6 {
   font-size: 1rem; }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300; }
 
 .display-1 {
@@ -10053,7 +10053,7 @@ textarea.form-control {
 }
 .production_gallery{margin-left:20px;margin-bottom: 40px}
 .production_galleryy{margin-left:20px;}
-.section-intro p{font-size: 13px!important;}
+.section-intro p{font-size: 15px!important;}
 @media(max-width:767px) {
 .section-intro{
   font-size: 13px!important;

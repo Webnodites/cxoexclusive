@@ -2611,6 +2611,9 @@ background-image: url(../images/team-img1.jpg);}
 .redimg{
   width:80%;
 }
+.anchoricon{
+  padding: 0 7px;
+}
 .product-area-title p{
 font-size: 13px!important;
 text-align: justify;

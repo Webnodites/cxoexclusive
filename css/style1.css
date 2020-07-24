@@ -114,6 +114,20 @@
     
 
  }
+
+ .about_img1{
+  height: 100%;
+  background: url(../images/logos/educationist1.png);
+  background-size: cover;
+      display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  
+
+}
  .about_img .overlay1 {
 background-color: rgba(0,0,0,0.7);
     text-align: center;
@@ -121,6 +135,15 @@ background-color: rgba(0,0,0,0.7);
     padding-top: 128px;
     padding-bottom: 119px
 }
+
+.about_img1 .overlay1 {
+  background-color: rgba(0,0,0,0.7);
+      text-align: center;
+      z-index: 98;
+      padding-top: 128px;
+      padding-bottom: 119px
+  }
+  
 
  
 
@@ -2282,10 +2305,21 @@ padding: 20px;
     margin-top: 27px;
 }
 
+.about_img1{
+  height:224px;
+  margin-top: 27px;
+}
+
 .about_img .overlay1 {
 
     padding-top:62px;
     padding-bottom: 57px;
+}
+
+.about_img1 .overlay1 {
+
+  padding-top:62px;
+  padding-bottom: 57px;
 }
 
 .about-text {
@@ -2616,6 +2650,7 @@ background-image: url(../images/team-img1.jpg);}
 }
 .anchoricon{
   padding: 0 7px;
+  
 }
 .product-area-title p{
 font-size: 13px!important;

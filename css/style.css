@@ -92,8 +92,13 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
-
-h1, h2, h3, h4, h5, h6 {
+  h1{
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+      
+  }
+h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -336,7 +341,7 @@ h1, h2, h3, h4, h5, h6,
    }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 3.7rem; }
 
 h2, .h2 {
   font-size: 2rem; }
@@ -6683,6 +6688,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
+  margin-top: 5rem !important;
   margin-bottom: 3rem !important; }
 
 .ml-5,
@@ -8439,7 +8445,8 @@ h1, h2, h3, h4, h5,
           font-size: 30px; } }
       @media (max-width: 767.98px) {
         .hero-wrap .slider-text h1 {
-          font-size: 25px!important; } }
+          font-size: 35px!important;
+          margin-top: -25px; } }
     .hero-wrap .slider-text p {
       color: rgba(255, 255, 255, 0.8);
       font-weight: 400;

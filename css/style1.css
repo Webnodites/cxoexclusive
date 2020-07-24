@@ -22,7 +22,7 @@
 }
 .header-social
 {
-    
+    padding: 0;
     list-style: none;
     display: block;
     width: 100%;
@@ -2397,7 +2397,7 @@ height: 414px!important;
 ol,
 ul,
 dl {
-  margin-top: -21px!important;
+padding: 0;
  }
 
 

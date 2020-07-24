@@ -2397,7 +2397,7 @@ height: 414px!important;
 ol,
 ul,
 dl {
-  margin-top: -21px!important;
+padding: 0;
  }
 
 

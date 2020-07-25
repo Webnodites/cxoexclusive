@@ -112,7 +112,7 @@ h2, h3,  h5, h6 {
 }
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   font-family: 'Montserrat', sans-serif; }
 
 abbr[title],

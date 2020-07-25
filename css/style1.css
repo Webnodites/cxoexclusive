@@ -1768,7 +1768,7 @@ height: 457px;
   height:303px!important;
 }
 .ftco-navbar-light{
-  padding-bottom: 92px;
+ height: auto;
 }
 .padding1{
   padding: 0px!important;
@@ -2649,10 +2649,10 @@ background-image: url(../images/team-img1.jpg);}
 }
 
 .redimg11{
-  width: 90%;
+  width: 81%;
    height: 400px;
 }
-@media (max-width: 769px) {
+@media (max-width: 767px) {
 
   .redimg11{
   width: 100%;

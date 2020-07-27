@@ -1831,9 +1831,7 @@ margin-bottom: 53px;
   .query{
     padding-bottom:26px;
   }
-  .experential_exp_text {
-    padding-left: 55px;
-}
+
 .experential_exp_text1 {
   padding-left: 55px;e
 }
@@ -1898,9 +1896,6 @@ margin-bottom: 11px;
     padding-bottom:0px;
 }
 
-.header-social{
-    padding-top:19px;
-}
 
 .dpmt_right h1{
   text-align: center;
@@ -1915,42 +1910,10 @@ margin-bottom: 11px;
 margin-top:51px;
 }
 
-
-ol,
-ul,
-dl {
-  margin-top: -18px!important;
- }
-
-
-
-/*.process-section .box3{
-margin-top: 89%;
-}
-
-
-
-.process-section .box_margin{
-margin-top: 89%;
- height:265px;
-}*/
-
-
-.process-section{
-    
-
-}
-
 .process-section .boxx {
 
     margin-right: -29px;
 }
-
-
-/*#arrow2{
-    display: none;
-
-}*/
 
 .process-section .box2{
  height:214px;
@@ -2843,7 +2806,15 @@ padding-bottom: 15px!important
 .experential_exp_text h2{
   color: #fff;
 }
-
+@media only screen and (max-width: 991.5px) and (min-width: 768px){
+    .experential_exp_text {
+   
+     padding: 0px 60px 20px 20px;
+}
+.experential_exp_text1 {
+  padding:0px 60px 20px 20px;
+  }
+}
 
 
 .ftco-intro {

@@ -1833,9 +1833,14 @@ margin-bottom: 53px;
   }
 
 .experential_exp_text1 {
-  padding-left: 55px;e
+  padding-left: 55px;
 }
-
+.experential_exp_text2 {
+  padding-left: 55px;
+}
+.team_row{
+  margin-bottom: -76px;
+}
 .about-text2 {
 
 padding-top: 0px!important;
@@ -2222,6 +2227,12 @@ margin: 0px!important;
 .experential_exp_text1{
   padding-right: 0px!important;
   padding-top: 44px!important;
+    padding-bottom: 15px!important;
+}
+.experential_exp_text2{
+  padding-right: 0px!important;
+  padding-top: 30px!important;
+  padding-bottom: 15px!important;
 }
 .top-category {
     height: 140px!important;
@@ -2798,6 +2809,13 @@ padding-bottom: 15px!important
 
 .experential_exp_text1 {
   padding:60px 60px 0 20px;
+  color: #fff;
+  text-align: justify;
+  font-size: 15px;
+
+}
+.experential_exp_text2 {
+  padding:70px 60px 0 20px;
   color: #fff;
   text-align: justify;
   font-size: 15px;

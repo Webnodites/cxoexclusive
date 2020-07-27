@@ -1835,10 +1835,10 @@ margin-bottom: 53px;
     padding-left: 55px;
 }
 .experential_exp_text1 {
-  padding-left: 55px;e
+  padding-left: 55px;
 }
 .experential_exp_text2 {
-  padding-left: 55px;e
+  padding-left: 55px;
 }
 .team_row{
   margin-bottom: -76px;
@@ -1867,7 +1867,12 @@ margin-bottom: 11px;
   color: #fff;
 }
 .about_img{
-  height: 100%;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.about_img1{
+    height: 420px;
+    margin-bottom: 30px;
 }
 .about_img2 .overlay2 {
     padding-bottom: 159px;
@@ -1998,12 +2003,6 @@ margin-top: 260px;
 .team-section .team-box:before{
     height: 65%;
 }
-
-.team-section {
-    padding-bottom: 9%;
-}
-
-
 
 .vice_president {
    

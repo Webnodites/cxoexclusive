@@ -200,101 +200,116 @@
     </div>
 </section>
 
-        <style type="text/css">
+<style type="text/css">
           
+    .card-container 
+    {
+        flex: 300px;
+    }
             
-            .card-container {
-                flex: 300px;
-            }
+    .card-container .card 
+    {
+        font-weight: bold;
+        position: relative;
+        width: 100%;
+        border: none;
+        background: #012148;
+    }
             
-            .card-container .card {
-                font-weight: bold;
-                position: relative;
-                width: 100%;
-                border: none;
-                background: #012148;
-            }
+    .card-container .card a 
+    {
+        padding: 30px;
+        width: 100%;
+        height: 250px;
+        border: 2px solid #0F1231;
+        background: #012148;
+        text-decoration: none;
+        color: black;
+        display: block;
+        transition: 0.25s ease;
+    }
             
-            .card-container .card a {
-                padding: 30px;
-                width: 100%;
-                height: 250px;
-                border: 2px solid #0F1231;
-                background: #012148;
-                text-decoration: none;
-                color: black;
-                display: block;
-                transition: 0.25s ease;
-            }
+    .card-container .card a:hover 
+    {
+        transform: translate(-20px, -20px);
+        background: #fff;
+    }
             
-            .card-container .card a:hover {
-                transform: translate(-20px, -20px);
-                background: #fff;
-            }
+    .card-container .card a:hover .card--display 
+    {
+        display: none;
+    }
             
-            .card-container .card a:hover .card--display {
-                display: none;
-            }
+    .card-container .card a:hover .card--hover 
+    {
+        display: block;
+    }
             
-            .card-container .card a:hover .card--hover {
-                display: block;
-            }
+    .card-container .card a .card--display i 
+    {
+        font-size: 60px;
+        margin-top: 180px;
+        color: #ccc;
+    }
             
-            .card-container .card a .card--display i {
-                font-size: 60px;
-                margin-top: 180px;
-                color: #ccc;
-            }
+    .card-container .card a .card--display h4 
+    {
+        font-size: 15px;
+        margin: 20px 0 0;
+        color: #fff;
+    }
             
-            .card-container .card a .card--display h4 {
-                font-size: 15px;
-                margin: 20px 0 0;
-                color: #fff;
-            }
+    .card-container .card a .card--hover 
+    {
+        display: none;
+    }
             
-            .card-container .card a .card--hover {
-                display: none;
-            }
+    .card-container .card a .card--hover h4 
+    {
+        margin: 20px 0;
+        color: #ccc;
+        font-size: 25px;
+    }
             
-            .card-container .card a .card--hover h4 {
-                margin: 20px 0;
-                color: #ccc;
-                font-size: 25px;
-            }
+    .card-container .card a .card--hover p 
+    {
+        font-weight: normal;
+        line-height: 1.5;
+        color: #000;
+        font-size: 12px;
+    }
             
-            .card-container .card a .card--hover p {
-                font-weight: normal;
-                line-height: 1.5;
-                color: #000;
-                font-size: 12px;
-            }
+    .card-container .card a .card--hover p.link 
+    {
+        margin: 20px 0 0;
+        font-weight: bold;
+        color: #5bc0eb;
+    }
             
-            .card-container .card a .card--hover p.link {
-                margin: 20px 0 0;
-                font-weight: bold;
-                color: #5bc0eb;
-            }
+    .card-container .card .card--border 
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        border: 2px dashed black;
+        z-index: -1;
+    }
             
-            .card-container .card .card--border {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                left: 0;
-                top: 0;
-                border: 2px dashed black;
-                z-index: -1;
-            }
+    .card-container .card.card--dark a 
+    {
+        color: white;
+        background-color: black;
+        border-color: black;
+    }
             
-            .card-container .card.card--dark a {
-                color: white;
-                background-color: black;
-                border-color: black;
-            }
-            
-            .card-container .card.card--dark a .card--hover .link {
-                color: #fde74c;
-            }
-        </style>
+    .card-container .card.card--dark a .card--hover .link 
+    {
+        color: #fde74c;
+     }
+     
+</style>
 
 <!-- End  Our Background -->
 

@@ -1529,89 +1529,6 @@ padding-top: 40px;
 
 
 
-
-
-/*
-.client{width:70%;background-color:#183f88;height:500px;float:left;position:relative;
-    transform-origin: top left;transform:skewx(-30deg);
-    background:linear-gradient(  #183f88, #0f1231 100%);margin-top:6%;}
-.client_testimonal{transform:skewx(30deg)}
-.client_testimonal  h5 span{font-size:36px;font-weight:700}
-.client_testimonal  h5{font-size:36px;color:#FFF;font-weight:200;padding-top:120px;padding-left:150px;}
-.client_testimonal  p{font-size:12px;float:left;padding-top:30px;padding-left:150px;color:#FFF;line-height:20px}
-.client_testimonal>img{position:absolute;right:0px;top:160px;border-radius:50%;width:140px;
-height:140px;}
-
-.vice_president{width:30%;float:right;margin-top:200px;}
-.vice_president h5{font-size:15px;margin-top:90px;list-style-type:none;color:#fd5300}
-.vice_president p{font-size:18px;padding-top:10px;line-height:25px}
-.vice_president p span{color:#999}
-
-
-.client2{width:70%;background-color:#183f88;height:500px;float:left;position:relative;
-    transform-origin: top left;transform:skewx(-30deg);
-    background:linear-gradient(  #183f88, #0f1231 100%);margin-top:6%;}
-.client_testimonal2{transform:skewx(30deg)}
-.client_testimonal2  h5 span{font-size:36px;font-weight:700}
-.client_testimonal2  h5{font-size:36px;color:#FFF;font-weight:200;padding-top:120px;padding-left:150px;}
-.client_testimonal2  p{font-size:12px;float:left;padding-top:30px;padding-left:150px;color:#FFF;line-height:20px}
-.client_testimonal2 img{position:absolute;right:0px;top:160px;border-radius:50%;width:140px;
-height:140px;}
-
-.vice_president2{width:30%;float:right;margin-top:200px;}
-.vice_president2 h5{font-size:15px;margin-top:90px;list-style-type:none;color:#fd5300}
-.vice_president2 p{font-size:18px;padding-top:10px;line-height:25px}
-.vice_president2 p span{color:#999}
-
-
-
-.client3{width:70%;background-color:#183f88;height:500px;float:left;position:relative;
-    transform-origin: top left;transform:skewx(-30deg);
-    background:linear-gradient(  #183f88, #0f1231 100%);margin-top:6%;}
-.client_testimonal3{transform:skewx(30deg)}
-.client_testimonal3  h5 span{font-size:36px;font-weight:700}
-.client_testimonal3  h5{font-size:36px;color:#FFF;font-weight:200;padding-top:120px;padding-left:150px;}
-.client_testimonal3  p{font-size:12px;float:left;padding-top:30px;padding-left:150px;color:#FFF;line-height:20px}
-.client_testimonal3 img{position:absolute;right:0px;top:160px;border-radius:50%;width:140px;
-height:140px;}
-
-.vice_president3{width:30%;float:right;margin-top:200px;}
-.vice_president3 h5{font-size:15px;margin-top:90px;list-style-type:none;color:#fd5300}
-.vice_president3 p{font-size:18px;padding-top:10px;line-height:25px}
-.vice_president3 p span{color:#999}
-
-
-
-
-
-
-.client4{width:70%;background-color:#183f88;height:500px;float:left;position:relative;
-    transform-origin: top left;transform:skewx(-30deg);
-    background:linear-gradient(  #183f88, #0f1231 100%);margin-top:6%;}
-.client_testimonal4{transform:skewx(30deg)}
-.client_testimonal4  h5 span{font-size:36px;font-weight:700}
-.client_testimonal4  h5{font-size:36px;color:#FFF;font-weight:200;padding-top:120px;padding-left:150px;}
-.client_testimonal4  p{font-size:12px;float:left;padding-top:30px;padding-left:150px;color:#FFF;line-height:20px}
-.client_testimonal4 img{position:absolute;right:0px;top:160px;border-radius:50%;width:140px;
-height:140px;}
-
-.vice_president4{width:30%;float:right;margin-top:200px;}
-.vice_president4 h5{font-size:15px;margin-top:90px;list-style-type:none;color:#fd5300}
-.vice_president4 p{font-size:18px;padding-top:10px;line-height:25px}
-.vice_president4 p span{color:#999}
-*/
-
-/*END INTERNAL TEAM SECTION*/
-
-
-
-
-
-
-
-
-
-
 /*EXECUTIVE PAGE*/
 
 
@@ -1625,22 +1542,6 @@ height:140px;}
   font-size:13px;
 
 }
-
-
-
-
-/*END EXECUTIVE PAGE*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* PRICING PLANS SECTION*/
@@ -1729,58 +1630,6 @@ height:140px;}
     background: linear-gradient(#183f88,#0f1231 50%,);
 
 }
-
-
-
-
-/* END PRICING PLANS SECTION*/
-
-
-
-
-
-
-
-
-
-
-
-/*TEAM SECTION*/
-
-/*
-.floor_plan{
-  width: 100%;
-  float: left;
-  padding: 2.4em 0 3em 0;
-  background-color: #f7f7f7;
- height: 400vh;
-}
-.floor_plan .text-center h1 {
-  font-size: 3em;
- 
-  margin: 1.5em 0 0.2em 0;
-
-}
-.floor_text{
-  float: left;
-  width: 105.4%;
-  background-color: #bf0246;
-  margin: 5px;
-  transition: all ease .35s;
-  
-  font-size: 1em;
-  padding: 2em 15px;
-  display: block;
-  font-weight: 700;
-
-}
-.floor_text a{
-  color: white;
-}
-.floor_text a: hover{
-  background-color: gray;
-}*/
-
 
 @media only screen and (max-width: 991.5px) and (min-width: 768px){
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -1927,11 +1776,7 @@ margin-top: 260px;
   height: 214px;
 }
 
-.team-section .our-team {
- 
 
-
-}
 #arrow2{
   display: none;
 }
@@ -1978,14 +1823,10 @@ margin-top: 260px;
     /*padding-left: 33px;*/
 }
 
-
-
-
 .vice_president2 {
     
     margin-top: 247px;
 }
-
 
 .vice_president2 h5 {
     font-size: 18px;
@@ -1994,9 +1835,6 @@ margin-top: 260px;
 .vice_president2 p {
     font-size: 16px;
 }
-
-
-
 .vice_president3 {
     
     margin-top: 247px;
@@ -2011,16 +1849,10 @@ margin-top: 260px;
     font-size: 16px;
 }
 
-
-
-
-
 .vice_president4 {
   
     margin-top: 247px;
 }
-
-
 .vice_president4 h5 {
    /* padding-left: 33px;*/
     font-size: 18px;
@@ -2030,29 +1862,21 @@ margin-top: 260px;
     font-size: 16px;
 }
 
-
-
-
 .flip-card-back2 {
    font-size:13px;
     padding: 0px 11px 0px 7px;
 }
-
 
 .flip-card-back3 {
    font-size:13px;
     padding: 0px 11px 0px 7px;
 }
 
-
-
 .client_testimonal h5 {
     font-size: 22px;
     padding-top: 27px;
     padding-left: 50px;
 }
-
-
 
 .client_testimonal p {
     font-size: 11px;
@@ -2065,18 +1889,11 @@ margin-top: 260px;
     top: 246px;
     }
 
-
-
-
-
-
 .client_testimonal2 h5 {
     font-size: 22px;
     padding-top: 27px;
     padding-left: 50px;
 }
-
-
 
 .client_testimonal2 p {
     font-size: 11px;
@@ -2089,21 +1906,11 @@ margin-top: 260px;
     top: 246px;
     }
 
-
-
-
-
-
-
-
-
 .client_testimonal3 h5 {
     font-size: 22px;
     padding-top: 27px;
     padding-left: 50px;
 }
-
-
 
 .client_testimonal3 p {
     font-size: 11px;
@@ -2116,17 +1923,11 @@ margin-top: 260px;
     top: 246px;
     }
 
-
-
-
-
 .client_testimonal4 h5 {
     font-size: 22px;
     padding-top: 27px;
     padding-left: 50px;
 }
-
-
 
 .client_testimonal4 p {
     font-size: 11px;
@@ -2142,11 +1943,6 @@ margin-top: 260px;
 .cxo-text h1{
     padding-left: 117px;
 }
-
-
-/*.circleee1{
-  margin-left: 10px;
-}*/
 
 }
 .single-product{
@@ -2326,13 +2122,6 @@ padding: 20px;
     margin-bottom: 38px;
 }
 
-
-
-
-
-
-
-
 .about-text2 p {
     color: #fff;
 font-size: 10px;
@@ -2343,14 +2132,10 @@ padding-right: 11px;
 
 }
 
-
-
 .about_img2{
     height:224px;
     margin-bottom: 56px;
 }
-
-
 
 .about-text2 {
    
@@ -2399,8 +2184,6 @@ dl {
 padding: 0;
  }
 
-
-
 .process-section .box {
     width:100%;  
     padding: 50px 33px 54px 37px;
@@ -2413,7 +2196,6 @@ margin-top: 223px;
 .process-section {
   padding: 50px 10px;
 }
-
 
 .process-section .box_margin {
     margin-top: 261%;
@@ -2472,58 +2254,6 @@ padding-top:20px;}
 padding:30px 30px;
 text-align: justify-all;
 }
-
-
-
-
-/*.site-section {
-  padding: 2.5em 0; }
-  .site-section.site-section-sm {
-    padding: 4em 0; }
-
-.site-section-cover {
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
-  .site-section-cover,
-  .site-section-cover .container {
-    position: relative;
-    z-index: 2; }
-  .site-section-cover,
-  .site-section-cover .container > .row {
-    height: calc(100vh - 196px);
-    min-height: 677px; }
-
-    .site-section-cover.overlay {
-    position: relative; }
-    .site-section-cover.overlay:before {
-      position: absolute;
-      content: "";
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.3);
-      z-index: 1; }
-  .site-section-cover.inner-page,
-  .site-section-cover.inner-page .container > .row {
-    height: auto;
-    min-height: auto;
-    padding: 2em 0; }
-  .site-section-cover.img-bg-section {
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .site-section-cover h1 {
-    font-size: 3rem;
-    color: #fff;
-    line-height: 1;
-    font-family: "Playfair Display", serif;
-    font-weight: 900; }
-
-     .site-section-cover p {
-    font-size: 18px;
-    color: #fff; }*/
 
 
 /*executive search page*/
@@ -2779,16 +2509,6 @@ padding-bottom: 15px!important
   z-index: 1;
 }
 
-/*.experential_exp:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(16, 15, 29, 0.28);
-  z-index: -1;
-}*/
 
 .experential_exp_img img {
   margin: 50px 40px;

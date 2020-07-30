@@ -28,7 +28,7 @@ if(isset($_POST["submit"]))
 	// echo($type);
 	
 	$from = "Volunteer Contact";
-	$to="@gmail.com";
+	$to="webnodites@gmail.com";
 	$webmaster = "info@webnodites.com";
 	$sub = "";
 

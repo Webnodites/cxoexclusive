@@ -8643,8 +8643,8 @@ h1, h2, h3, h4, h5,
       box-shadow: 0px 3px 14px -4px rgba(0, 0, 0, 0.1); } }
 
 .top-category {
-  height:175px!important;
-  width: 180px!important;
+  height:120px!important;
+  width: px!important;
   padding-top: 15px;
   /*background: #fff;*/
   background-image: linear-gradient(#183f88, #0f1231);
@@ -8669,7 +8669,7 @@ h1, h2, h3, h4, h5,
   .top-category.no-border-left {
     border-left: none; }
   .top-category h3 {
-    font-size: 15px!important;
+    font-size: 12px!important;
     padding-top: 15px;
     color:#fff!important; }
     .top-category h3 a {
@@ -10096,7 +10096,7 @@ font-size: 25px!important;
 .table-bordered td{
   border:solid 2px #0f1231;
   box-shadow: 5px 5px 10px #ccc;
-  font-size: 16px;s
+  font-size: 16px;
 }
 .table-bordered th{
   background-color:  #0f1231;

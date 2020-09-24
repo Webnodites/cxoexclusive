@@ -2031,8 +2031,9 @@ margin: 0px!important;
 }
 .top-category {
     height: 100px!important;
-    width: 50px!important;
    
+    padding-top: 10px;
+
 }
 
 
@@ -2041,10 +2042,11 @@ padding-top: 17px!important;
 }
 .category-wrap{
   margin: 0px!important;
+
 }
 .top-category h3{
   font-size: 8px!important;
-  padding-top: 15px;
+  padding-top: 5px;
   
 }
 .pricing-button {

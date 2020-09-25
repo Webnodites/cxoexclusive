@@ -10122,3 +10122,23 @@ font-size: 25px!important;
     color:#111111;
 }
 
+#hver{
+  color: white;
+}
+
+#hver:hover{
+  color: #7c7b79;
+}
+
+.hver{
+  color: white;
+}
+
+
+.hver:hover{
+  color: #7c7b79;
+}
+
+#srvc:hover{
+  opacity: 0.7;
+}

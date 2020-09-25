@@ -2442,6 +2442,10 @@ background-image: url(../images/team-img1.jpg);}
   padding: 0 7px;
   
 }
+.anchoricon:hover{
+  color: blueviolet;
+  
+}
 .product-area-title p{
 font-size: 13px!important;
 text-align: justify;

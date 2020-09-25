@@ -2739,6 +2739,7 @@ color: #000000;}
 .footerr .foot_marg{padding-top:40px !important;padding-bottom: 20px;text-align: left; }
 .footerr_style ul{list-style-type: none;}
 .footerr_style ul li a{list-style-type:none;color:#fff;font-size: 15px;text-decoration: none;}
+.footerr_style ul li a:hover{list-style-type:none;color:#7c7b79;font-size: 15px;text-decoration: none;}
 .footerr_style ul li h6{font-size:16px; color:#fff;padding-bottom: 10px}
 .Copyright_foot
 {

@@ -10126,10 +10126,17 @@ font-size: 25px!important;
   color: white;
 }
 
+#hver1{
+  color: #0F1231;;
+}
+
 #hver:hover{
   color: #7c7b79;
 }
 
+#hver1:hover{
+  color: #7c7b79;
+}
 .hver{
   color: white;
 }
